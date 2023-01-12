@@ -1,10 +1,9 @@
 .flexBox {
     display: flex;
-    justify-content: space-around;
-
+    grid-gap: 10px;
 }
 
 canvas {
     background-color: blueviolet;
-    
+    width: 100%;
 }
