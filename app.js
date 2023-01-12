@@ -18,7 +18,7 @@ const srcArray = [
 ]
 
 const picImage = new Image()
-picImage.src = srcArray[0]
+picImage.src = srcArray[1]
 
 
 class Particle {

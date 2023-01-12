@@ -1,9 +1,23 @@
+body {
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
 .flexBox {
     display: flex;
-    grid-gap: 10px;
+    width: 100%;
+    gap: 0;
 }
 
 canvas {
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: blueviolet;
+    height: 95%;
     width: 100%;
 }
